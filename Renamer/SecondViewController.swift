@@ -2,7 +2,7 @@
 //  SecondViewController.swift
 //  Renamer
 //
-//  Created by Allison Gallant on 9/2/16.
+//  Created by Allison Whilden on 9/2/16.
 //  Copyright © 2016 Allison Whilden. All rights reserved.
 //
 

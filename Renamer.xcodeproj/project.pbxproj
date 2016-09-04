@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18FDFE5FE8D5156F6F398AB1 /* Pods_Renamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994113611BF7C0139FE9AD4E /* Pods_Renamer.framework */; };
+		6A90722717ABCBBE150ADE26 /* Pods_RenamerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A836E6ABBE6F9AF5BC4437 /* Pods_RenamerUITests.framework */; };
+		6F5898942E8C431EF9CB75B7 /* Pods_RenamerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A78C94AA3A337AF4D7108F8 /* Pods_RenamerTests.framework */; };
+		BC5D067F1D7A413D009D9DE5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D067E1D7A413D009D9DE5 /* ThirdViewController.swift */; };
+		BC5D06811D7A426A009D9DE5 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D06801D7A426A009D9DE5 /* FourthViewController.swift */; };
+		BC5D06831D7A4301009D9DE5 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D06821D7A4301009D9DE5 /* FifthViewController.swift */; };
 		BC6CEFFE1D7A0F62000AE43B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6CEFFD1D7A0F62000AE43B /* AppDelegate.swift */; };
 		BC6CF0001D7A0F62000AE43B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6CEFFF1D7A0F62000AE43B /* FirstViewController.swift */; };
 		BC6CF0021D7A0F62000AE43B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6CF0011D7A0F62000AE43B /* SecondViewController.swift */; };
@@ -35,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A78218E4961D421A7DDDA73 /* Pods-RenamerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenamerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RenamerUITests/Pods-RenamerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23A6F9C40320B5DC7FE841F2 /* Pods-RenamerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenamerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RenamerTests/Pods-RenamerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B76A126B6F046F0D5CF8682 /* Pods-Renamer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Renamer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Renamer/Pods-Renamer.debug.xcconfig"; sourceTree = "<group>"; };
+		410ACE57919FF8FE4210626F /* Pods-Renamer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Renamer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Renamer/Pods-Renamer.release.xcconfig"; sourceTree = "<group>"; };
+		4A78C94AA3A337AF4D7108F8 /* Pods_RenamerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RenamerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9376C0B1AC50D3E65E1C80D6 /* Pods-RenamerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenamerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RenamerUITests/Pods-RenamerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		994113611BF7C0139FE9AD4E /* Pods_Renamer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Renamer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A836E6ABBE6F9AF5BC4437 /* Pods_RenamerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RenamerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5D067E1D7A413D009D9DE5 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		BC5D06801D7A426A009D9DE5 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		BC5D06821D7A4301009D9DE5 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		BC6CEFFA1D7A0F62000AE43B /* Renamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6CEFFD1D7A0F62000AE43B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC6CEFFF1D7A0F62000AE43B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +66,7 @@
 		BC6CF01B1D7A0F63000AE43B /* RenamerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenamerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6CF01F1D7A0F63000AE43B /* RenamerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenamerUITests.swift; sourceTree = "<group>"; };
 		BC6CF0211D7A0F63000AE43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FD6FA92ECDBE4B08A52C98 /* Pods-RenamerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenamerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RenamerTests/Pods-RenamerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FDFE5FE8D5156F6F398AB1 /* Pods_Renamer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5898942E8C431EF9CB75B7 /* Pods_RenamerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A90722717ABCBBE150ADE26 /* Pods_RenamerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A31AF10AEA416624DC15E5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B76A126B6F046F0D5CF8682 /* Pods-Renamer.debug.xcconfig */,
+				410ACE57919FF8FE4210626F /* Pods-Renamer.release.xcconfig */,
+				23A6F9C40320B5DC7FE841F2 /* Pods-RenamerTests.debug.xcconfig */,
+				F3FD6FA92ECDBE4B08A52C98 /* Pods-RenamerTests.release.xcconfig */,
+				9376C0B1AC50D3E65E1C80D6 /* Pods-RenamerUITests.debug.xcconfig */,
+				0A78218E4961D421A7DDDA73 /* Pods-RenamerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66998A35A60E481211DB09BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				994113611BF7C0139FE9AD4E /* Pods_Renamer.framework */,
+				4A78C94AA3A337AF4D7108F8 /* Pods_RenamerTests.framework */,
+				B8A836E6ABBE6F9AF5BC4437 /* Pods_RenamerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC6CEFF11D7A0F62000AE43B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				BC6CF0131D7A0F63000AE43B /* RenamerTests */,
 				BC6CF01E1D7A0F63000AE43B /* RenamerUITests */,
 				BC6CEFFB1D7A0F62000AE43B /* Products */,
+				4A31AF10AEA416624DC15E5E /* Pods */,
+				66998A35A60E481211DB09BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +148,9 @@
 				BC6CEFFD1D7A0F62000AE43B /* AppDelegate.swift */,
 				BC6CEFFF1D7A0F62000AE43B /* FirstViewController.swift */,
 				BC6CF0011D7A0F62000AE43B /* SecondViewController.swift */,
+				BC5D067E1D7A413D009D9DE5 /* ThirdViewController.swift */,
+				BC5D06801D7A426A009D9DE5 /* FourthViewController.swift */,
+				BC5D06821D7A4301009D9DE5 /* FifthViewController.swift */,
 				BC6CF0031D7A0F63000AE43B /* Main.storyboard */,
 				BC6CF0061D7A0F63000AE43B /* Assets.xcassets */,
 				BC6CF0081D7A0F63000AE43B /* LaunchScreen.storyboard */,
@@ -135,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC6CF0241D7A0F63000AE43B /* Build configuration list for PBXNativeTarget "Renamer" */;
 			buildPhases = (
+				4FDAF67F3626AD3A8F55B542 /* [CP] Check Pods Manifest.lock */,
 				BC6CEFF61D7A0F62000AE43B /* Sources */,
 				BC6CEFF71D7A0F62000AE43B /* Frameworks */,
 				BC6CEFF81D7A0F62000AE43B /* Resources */,
+				DBEF4E8DE0992AEE931EC0AC /* [CP] Embed Pods Frameworks */,
+				8C0974D5BB4F9A527B40E1BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC6CF0271D7A0F63000AE43B /* Build configuration list for PBXNativeTarget "RenamerTests" */;
 			buildPhases = (
+				B4D77702D23C062A7B042084 /* [CP] Check Pods Manifest.lock */,
 				BC6CF00C1D7A0F63000AE43B /* Sources */,
 				BC6CF00D1D7A0F63000AE43B /* Frameworks */,
 				BC6CF00E1D7A0F63000AE43B /* Resources */,
+				E57A5B0A8C42D18509C4DA56 /* [CP] Embed Pods Frameworks */,
+				50021F9D2320317E408329E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC6CF02A1D7A0F63000AE43B /* Build configuration list for PBXNativeTarget "RenamerUITests" */;
 			buildPhases = (
+				C1566A3692A0CE2D93BEEA62 /* [CP] Check Pods Manifest.lock */,
 				BC6CF0171D7A0F63000AE43B /* Sources */,
 				BC6CF0181D7A0F63000AE43B /* Frameworks */,
 				BC6CF0191D7A0F63000AE43B /* Resources */,
+				01DF2CA1D9A74DC2D29347B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +311,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01DF2CA1D9A74DC2D29347B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RenamerUITests/Pods-RenamerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FDAF67F3626AD3A8F55B542 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50021F9D2320317E408329E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RenamerTests/Pods-RenamerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C0974D5BB4F9A527B40E1BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Renamer/Pods-Renamer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4D77702D23C062A7B042084 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1566A3692A0CE2D93BEEA62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBEF4E8DE0992AEE931EC0AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Renamer/Pods-Renamer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E57A5B0A8C42D18509C4DA56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RenamerTests/Pods-RenamerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC6CEFF61D7A0F62000AE43B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5D06831D7A4301009D9DE5 /* FifthViewController.swift in Sources */,
 				BC6CF0021D7A0F62000AE43B /* SecondViewController.swift in Sources */,
 				BC6CEFFE1D7A0F62000AE43B /* AppDelegate.swift in Sources */,
+				BC5D067F1D7A413D009D9DE5 /* ThirdViewController.swift in Sources */,
 				BC6CF0001D7A0F62000AE43B /* FirstViewController.swift in Sources */,
+				BC5D06811D7A426A009D9DE5 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +586,7 @@
 		};
 		BC6CF0251D7A0F63000AE43B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B76A126B6F046F0D5CF8682 /* Pods-Renamer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Renamer/Info.plist;
@@ -414,6 +598,7 @@
 		};
 		BC6CF0261D7A0F63000AE43B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410ACE57919FF8FE4210626F /* Pods-Renamer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Renamer/Info.plist;
@@ -425,6 +610,7 @@
 		};
 		BC6CF0281D7A0F63000AE43B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A6F9C40320B5DC7FE841F2 /* Pods-RenamerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RenamerTests/Info.plist;
@@ -437,6 +623,7 @@
 		};
 		BC6CF0291D7A0F63000AE43B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FD6FA92ECDBE4B08A52C98 /* Pods-RenamerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RenamerTests/Info.plist;
@@ -449,6 +636,7 @@
 		};
 		BC6CF02B1D7A0F63000AE43B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9376C0B1AC50D3E65E1C80D6 /* Pods-RenamerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RenamerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +648,7 @@
 		};
 		BC6CF02C1D7A0F63000AE43B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A78218E4961D421A7DDDA73 /* Pods-RenamerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RenamerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +677,7 @@
 				BC6CF0261D7A0F63000AE43B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC6CF0271D7A0F63000AE43B /* Build configuration list for PBXNativeTarget "RenamerTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +686,7 @@
 				BC6CF0291D7A0F63000AE43B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC6CF02A1D7A0F63000AE43B /* Build configuration list for PBXNativeTarget "RenamerUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +695,7 @@
 				BC6CF02C1D7A0F63000AE43B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
