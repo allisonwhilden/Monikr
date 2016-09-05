@@ -195,7 +195,7 @@
         <!--Life-->
         <scene sceneID="bgf-PG-dQP">
             <objects>
-                <viewController id="Ibw-SD-rZD" customClass="FifthViewController" customModule="Renamer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ibw-SD-rZD" customClass="LifeViewController" customModule="Renamer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GdL-qM-yRk"/>
                         <viewControllerLayoutGuide type="bottom" id="r4L-Jk-6aQ"/>
@@ -204,33 +204,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Fifth View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="6xX-nh-vp3">
-                                <rect key="frame" x="221" y="279" width="158" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loaded by FifthViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2U-Zk-Evu">
-                                <rect key="frame" x="192" y="329" width="216" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ha7-E7-3Vb">
+                                <rect key="frame" x="0.0" y="28" width="600" height="523"/>
+                                <connections>
+                                    <segue destination="4dU-aP-KIk" kind="embed" id="qOa-AO-Jez"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="6xX-nh-vp3" secondAttribute="centerY" id="8O6-3j-eve"/>
-                            <constraint firstItem="f2U-Zk-Evu" firstAttribute="top" secondItem="6xX-nh-vp3" secondAttribute="bottom" constant="8" symbolic="YES" id="9d9-mT-Tjc"/>
-                            <constraint firstItem="f2U-Zk-Evu" firstAttribute="centerX" secondItem="6xX-nh-vp3" secondAttribute="centerX" id="Win-1c-cVw"/>
-                            <constraint firstAttribute="centerX" secondItem="6xX-nh-vp3" secondAttribute="centerX" id="Wm1-zg-Gd5"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Life" image="Life" id="bZm-j1-qkm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iUK-aU-NgE" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1346" y="1461"/>
+            <point key="canvasLocation" x="1346" y="1445"/>
+        </scene>
+        <!--Life Table View Controller-->
+        <scene sceneID="3Ja-vy-skP">
+            <objects>
+                <tableViewController id="4dU-aP-KIk" customClass="LifeTableViewController" customModule="Renamer" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="S2X-w2-Mtm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="523"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListPrototypeCell" id="cNg-X2-tXv">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cNg-X2-tXv" id="mnd-ae-yTC">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4dU-aP-KIk" id="Ubq-MA-etr"/>
+                            <outlet property="delegate" destination="4dU-aP-KIk" id="vSO-06-X3o"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r4x-b8-7gz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1346" y="2114.5"/>
         </scene>
     </scenes>
     <resources>
