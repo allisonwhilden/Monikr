@@ -23,6 +23,8 @@
 		BC6CF0201D7A0F63000AE43B /* RenamerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6CF01F1D7A0F63000AE43B /* RenamerUITests.swift */; };
 		BCD05D5F1D7D0BCA00A205C6 /* LifeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD05D5E1D7D0BCA00A205C6 /* LifeItem.swift */; };
 		BCD05D611D7D0F3800A205C6 /* LifeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD05D601D7D0F3800A205C6 /* LifeTableViewController.swift */; };
+		BCD05D631D7D3F2200A205C6 /* LifeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD05D621D7D3F2200A205C6 /* LifeTableViewCell.swift */; };
+		BCD05D651D7D4BFE00A205C6 /* LifeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD05D641D7D4BFE00A205C6 /* LifeDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		BC6CF0211D7A0F63000AE43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCD05D5E1D7D0BCA00A205C6 /* LifeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeItem.swift; sourceTree = "<group>"; };
 		BCD05D601D7D0F3800A205C6 /* LifeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeTableViewController.swift; sourceTree = "<group>"; };
+		BCD05D621D7D3F2200A205C6 /* LifeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeTableViewCell.swift; sourceTree = "<group>"; };
+		BCD05D641D7D4BFE00A205C6 /* LifeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeDetailsViewController.swift; sourceTree = "<group>"; };
 		F3FD6FA92ECDBE4B08A52C98 /* Pods-RenamerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RenamerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RenamerTests/Pods-RenamerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,8 +160,10 @@
 				BC5D06801D7A426A009D9DE5 /* FourthViewController.swift */,
 				BC5D06821D7A4301009D9DE5 /* LifeViewController.swift */,
 				BC6CF0031D7A0F63000AE43B /* Main.storyboard */,
+				BCD05D621D7D3F2200A205C6 /* LifeTableViewCell.swift */,
 				BCD05D601D7D0F3800A205C6 /* LifeTableViewController.swift */,
 				BCD05D5E1D7D0BCA00A205C6 /* LifeItem.swift */,
+				BCD05D641D7D4BFE00A205C6 /* LifeDetailsViewController.swift */,
 				BC6CF0061D7A0F63000AE43B /* Assets.xcassets */,
 				BC6CF0081D7A0F63000AE43B /* LaunchScreen.storyboard */,
 				BC6CF00B1D7A0F63000AE43B /* Info.plist */,
@@ -448,9 +454,11 @@
 				BC5D06831D7A4301009D9DE5 /* LifeViewController.swift in Sources */,
 				BC6CF0021D7A0F62000AE43B /* SecondViewController.swift in Sources */,
 				BC6CEFFE1D7A0F62000AE43B /* AppDelegate.swift in Sources */,
+				BCD05D631D7D3F2200A205C6 /* LifeTableViewCell.swift in Sources */,
 				BC5D067F1D7A413D009D9DE5 /* ThirdViewController.swift in Sources */,
 				BCD05D5F1D7D0BCA00A205C6 /* LifeItem.swift in Sources */,
 				BC6CF0001D7A0F62000AE43B /* FirstViewController.swift in Sources */,
+				BCD05D651D7D4BFE00A205C6 /* LifeDetailsViewController.swift in Sources */,
 				BC5D06811D7A426A009D9DE5 /* FourthViewController.swift in Sources */,
 				BCD05D611D7D0F3800A205C6 /* LifeTableViewController.swift in Sources */,
 			);

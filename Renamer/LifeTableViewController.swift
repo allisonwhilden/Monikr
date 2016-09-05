@@ -9,14 +9,16 @@
 import UIKit
 
 class LifeTableViewController: UITableViewController {
-
+    
+    // MARK: Properties
+    
     var lifeItems: [LifeItem] = []
     
     func loadInitialData() {
         lifeItems = [
             LifeItem(itemName: "Job HR Department", itemDescription: "Name on record for your job"),
             LifeItem(itemName: "Updated W-4 Form", itemDescription: "Need to update your W-4 Form"),
-            LifeItem(itemName: "School", itemDescription: "Inform the registrar's office of your name change", required: "Marriage certificate")
+            LifeItem(itemName: "School", itemDescription: "Inform the registrar's office of your name change. Testing what a two line description might look like.", required: "Marriage certificate")
         ]
     }
     
@@ -39,26 +41,26 @@ class LifeTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return lifeItems.count
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let tempCell = tableView.dequeueReusableCellWithIdentifier("ListPrototypeCell")! as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ListPrototypeCell")! as! LifeTableViewCell
         let lifeItem = lifeItems[indexPath.row]
         
         // Downcast from UILabel? to UILabel
-        let cell = tempCell.textLabel as UILabel!
-        cell.text = lifeItem.itemName
+//        let cell = tempCell.textLabel as UILabel!
+//        cell.text = lifeItem.itemName
+        cell.titleLabel.text = lifeItem.itemName
+        cell.descriptionLabel.text = lifeItem.itemDescription
         
-        return tempCell
+        return cell
         
 //        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
 
