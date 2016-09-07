@@ -311,7 +311,7 @@
                                 <connections>
                                     <outlet property="descriptionLabel" destination="qll-zf-aQa" id="A1l-DG-sHZ"/>
                                     <outlet property="titleLabel" destination="ke9-h4-RC2" id="wXM-EM-Lhy"/>
-                                    <segue destination="nrL-qI-TKr" kind="show" id="Fbg-h8-Ggc"/>
+                                    <segue destination="nrL-qI-TKr" kind="show" identifier="ShowDetail" id="Fbg-h8-Ggc"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -382,6 +382,7 @@
                     </view>
                     <connections>
                         <outlet property="descriptionTextView" destination="MlG-Li-JGP" id="xK6-xG-kUu"/>
+                        <outlet property="titleUILabel" destination="7iv-SP-6IU" id="s0E-vT-cee"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6J-5f-SYu" userLabel="First Responder" sceneMemberID="firstResponder"/>

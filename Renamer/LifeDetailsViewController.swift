@@ -9,15 +9,28 @@
 import UIKit
 
 class LifeDetailsViewController: UIViewController {
-
+    
+    // MARK: Properties
+    
+    @IBOutlet weak var titleUILabel: UILabel!
     @IBOutlet weak var descriptionTextView: UITextView!
+    
+    /*
+     This value is passed by 'LifeTableViewController' in 'prepareForSegue(_:sender:)'
+    */
+    var lifeItem: LifeItem?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Remove padding from descriptionTextView
         descriptionTextView.textContainer.lineFragmentPadding = 0
         descriptionTextView.textContainerInset = UIEdgeInsetsZero
+        
+        if let lifeItem = lifeItem {
+            titleUILabel.text = lifeItem.itemName
+            descriptionTextView.text = lifeItem.itemDescription
+        }
     }
 
     override func didReceiveMemoryWarning() {
